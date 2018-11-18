@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta|Kumar+One');
+
+body {
+	font-family: 'Kumar One', cursive;
+}
+
+h3, h4, p {
+	font-family: 'Allerta', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+header {
+	background-image: url("../imgs/blackduck.jpeg");
+}
