@@ -103,6 +103,18 @@ h2 {
 	color: #f88e38;
 }
 
+.more-cabins h2 {
+	background: black;
+	color: white;
+	text-align: right;
+}
+
+.more-cabins i {
+	float: left;
+	color: white;
+	font-size: 2.5em;
+}
+
 .icons {
 	display: flex;
 	flex-wrap: wrap;
