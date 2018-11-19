@@ -89,12 +89,17 @@ h2 {
 	left: 20px;
 }
 
-.icons {
+.fun-icon {
 	display: flex;
+	flex-direction: row;
 	flex-wrap: wrap;
 	padding: 20px 0px;
 	justify-content: center;
 	position: relative;
+}
+
+.fun-icon a {
+	flex-basis: 15%;
 }
 
 .fun-icon i {
@@ -107,6 +112,7 @@ h2 {
 a > h3 {
 	position: absolute;
 	top: 50%;
+	right: 50%;
 	font-size: 16px;
 	margin: 0;
 	padding: 0;
