@@ -88,3 +88,35 @@ h2 {
 	bottom: -40px;
 	left: 20px;
 }
+
+.icons {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px 0px;
+	justify-content: center;
+	position: relative;
+}
+
+.fun-icon i {
+	
+	font-size: 7em;
+	padding: 10px 30px;
+	
+}
+
+a > h3 {
+	position: absolute;
+	top: 50%;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.icons a:hover {
+	color: red;
+}
+
+.icons a:hover h3 {
+	color: yellow;
+}
