@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Allerta'); url('https://fonts.googleapis.com/css?family=Kumar+One');
+@import url('https://fonts.googleapis.com/css?family=Allerta|Kumar+One');
+
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
 
 body {
 	display: flex;
