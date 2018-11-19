@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Allerta|Kumar+One');
+@import url('https://fonts.googleapis.com/css?family=Allerta'); url('https://fonts.googleapis.com/css?family=Kumar+One');
 
 body {
 	display: flex;
@@ -115,7 +115,15 @@ h2 {
 	font-size: 2.5em;
 }
 
-.more-cabins article {
+.more-cabins-open {
+	display: none;
+}
+
+.extra-cabins {
+	overflow: hidden;
+}
+.extra-cabins .more-cabins-open {
+	display: block;
 	text-align: center;
 	float: left;
 	position: relative;
