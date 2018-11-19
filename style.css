@@ -115,6 +115,14 @@ h2 {
 	font-size: 2.5em;
 }
 
+.more-cabins article {
+	text-align: center;
+	float: left;
+	position: relative;
+	margin: 2% 1% .5% 1%;
+	width: 31%;
+}
+
 .icons {
 	display: flex;
 	flex-wrap: wrap;
