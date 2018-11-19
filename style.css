@@ -41,15 +41,16 @@ header ul {
 	list-style-type: none;
 	text-align: right;
 	margin: 0;
-	padding: 0;
+	padding: 20px;
 	line-height: 2em;
-	font-size: 1em;
+	font-size: 1.25em;
+	border: 10px solid white;
+	background-color: hsla(0,100%,100%, 0.5);
 }
 
 header a:hover {
 		background-color: white;
 		font-style: italic;
-		padding: 0px 10px;
 }
 
 h2 {
@@ -59,10 +60,6 @@ h2 {
 	padding: 10px 0px;
 	font-size: 20px;
 	margin: 0px;
-}
-
-.accommodations {
-	width: 100%;
 }
 
 .cabin {
@@ -89,40 +86,78 @@ h2 {
 	left: 20px;
 }
 
-.fun-icon {
+.icons {
 	display: flex;
-	flex-direction: row;
 	flex-wrap: wrap;
 	padding: 20px 0px;
 	justify-content: center;
+}
+
+.fun-icon {
 	position: relative;
 }
 
-.fun-icon a {
-	flex-basis: 15%;
-}
-
 .fun-icon i {
-	
+	flex: 1;
 	font-size: 7em;
-	padding: 10px 30px;
+	padding: 40px;
+	z-index: -10;
 	
 }
 
-a > h3 {
+a h3 {
 	position: absolute;
+	font-size: 20px;
+	font-weight: bold;
+	left: 50%;
 	top: 50%;
-	right: 50%;
-	font-size: 16px;
+	transform: translate(-50%, -50%);
 	margin: 0;
 	padding: 0;
-	
+	opacity: 0;
 }
 
 .icons a:hover {
-	color: red;
+	color: #f88e38;
 }
 
 .icons a:hover h3 {
-	color: yellow;
+	opacity: 1;
+	color: #3676cd;
+	font-style: italic;
 }
+
+.gettinghere {
+	display: flex;
+	padding: 50px;
+	background: url(../imgs/fishingformbg.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.inquiry {
+	flex: 1;
+	background-color: hsla(0,100%,100%, 0.15);
+	line-height: 2em;
+	color: white;
+	font-style: italic;
+}
+
+input, select {
+	background: #f88e38;
+	border: 3px solid black;
+}
+
+.google-map {
+	flex: 1;
+	border: 5px solid black;
+	background: black;
+	color: white;
+	font-style: italic;
+}
+
+footer h2 {
+	background-color: black;
+	text-align: right;
+}
+
