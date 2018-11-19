@@ -1,17 +1,90 @@
 @import url('https://fonts.googleapis.com/css?family=Allerta|Kumar+One');
 
 body {
+	display: flex;
+	flex-direction: column;
 	font-family: 'Kumar One', cursive;
+	max-width: 100%;
+	align: center;
 }
 
 h3, h4, p {
 	font-family: 'Allerta', sans-serif;
 }
 
-img {
-	max-width: 100%;
+a {
+	text-decoration: none;
+	color: black;
 }
 
 header {
+	display: flex;
 	background-image: url("../imgs/blackduck.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 100px 50px;
+	color: black;
+	max-width: 100%;
+}
+
+header h1 {
+	flex: 6;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	font-size: 3em;
+}
+
+header ul {
+	flex: 1;
+	float: right;
+	list-style-type: none;
+	text-align: right;
+	margin: 0;
+	padding: 0;
+	line-height: 2em;
+	font-size: 1em;
+}
+
+header a:hover {
+		background-color: white;
+		font-style: italic;
+		padding: 0px 10px;
+}
+
+h2 {
+	width: 100%;
+	background-color: #3676cd;
+	color: white;
+	padding: 10px 0px;
+	font-size: 20px;
+	margin: 0px;
+}
+
+.accommodations {
+	width: 100%;
+}
+
+.cabin {
+	text-align: center;
+	float: left;
+	position: relative;
+	margin: 2% 1% 15% 1%;
+	width: 31%;
+}
+
+.accommodations img {
+	position: relative;
+	z-index: -10;
+	width: 100%;
+}
+
+.accommodations h3 {
+	position: absolute;
+}
+
+.accommodations q {
+	position: absolute;
+	bottom: -40px;
+	left: 20px;
 }
